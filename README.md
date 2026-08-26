@@ -38,3 +38,6 @@ Do not commit patient information, confidential employee information, credential
 ## Portfolio evidence
 
 The project demonstrates C#/.NET application development, domain modelling, validation logic, local persistence, CSV export and automated testing.
+## Status
+
+This repository is part of the ABLA86 engineering portfolio. Current implementation status is represented by the code and repository history.
