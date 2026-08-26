@@ -1,23 +1,22 @@
 # Shift & Competence Planner
 
-A practical C#/.NET staffing tool for planning shifts and checking whether staffing and competence requirements are met.
+A C#/.NET staffing-planning application for modelling shifts, staffing requirements and competence coverage using fictional workforce data.
 
-## What it does
+## Demonstrated functionality
 
-- Stores employees with role, position percentage and competencies
-- Stores day/evening/night shifts
-- Defines minimum staffing per shift
-- Defines required competencies per shift
-- Shows which employees are assigned
-- Warns when staffing is below minimum
-- Warns when required competence is missing
-- Calculates worked/planned hours per employee
-- Adds and removes employees from shifts
-- Saves planner data locally as JSON
-- Exports the shift plan to CSV
-- Includes automated xUnit tests
+- Employee records with role, position percentage and competencies
+- Day, evening and night shifts
+- Minimum staffing requirements per shift
+- Required competencies per shift
+- Assignment of employees to shifts
+- Detection of staffing gaps
+- Detection of missing required competence
+- Planned/worked-hour calculations
+- Local JSON persistence
+- CSV export
+- Automated xUnit tests
 
-## Run
+## Run locally
 
 ```powershell
 dotnet restore
@@ -30,9 +29,12 @@ dotnet run --project ShiftPlanner
 dotnet test
 ```
 
-## Important
+## Data and scope
 
-The included names and data are fictional sample data only.
+The repository uses fictional sample data only. It is a demonstration and planning project, not a validated workforce-management or clinical decision-support system.
 
-Do not store real patient information in this project.
-If used with real employee data at work, follow the employer's information-security and privacy requirements.
+Do not commit patient information, confidential employee information, credentials or other sensitive data.
+
+## Portfolio evidence
+
+The project demonstrates C#/.NET application development, domain modelling, validation logic, local persistence, CSV export and automated testing.
