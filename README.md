@@ -2,6 +2,16 @@
 
 A C#/.NET staffing-planning application for modelling shifts, staffing requirements and competence coverage using fictional workforce data.
 
+## Start here
+
+| Need | Go to |
+|---|---|
+| Run the application | [Run locally](#run-locally) |
+| Run tests | [Test](#test) |
+| Understand scope | [Data and scope](#data-and-scope) |
+| See the portfolio context | [Developer portfolio](https://abla86.github.io/developer-portfolio/) |
+| Inspect source | [GitHub repository](https://github.com/abla86/shift-competence-planner) |
+
 ## Demonstrated functionality
 
 - Employee records with role, position percentage and competencies
@@ -38,6 +48,7 @@ Do not commit patient information, confidential employee information, credential
 ## Portfolio evidence
 
 The project demonstrates C#/.NET application development, domain modelling, validation logic, local persistence, CSV export and automated testing.
+
 ## Status
 
 This repository is part of the ABLA86 engineering portfolio. Current implementation status is represented by the code and repository history.
