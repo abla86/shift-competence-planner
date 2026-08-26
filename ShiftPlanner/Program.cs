@@ -10,21 +10,14 @@ var dataPath = Path.Combine(
     "planner-data.json"
 );
 
-var seedPath = Path.GetFullPath(
-    Path.Combine(
-        AppContext.BaseDirectory,
-        "..",
-        "..",
-        "..",
-        "..",
-        "data",
-        "planner-data.json"
-    )
-);
+if (!File.Exists(dataPath))
+{
+    throw new FileNotFoundException(
+        "Planner data file was not found in the application output directory.",
+        dataPath);
+}
 
-var data = File.Exists(dataPath)
-    ? dataService.Load(dataPath)
-    : dataService.Load(seedPath);
+var data = dataService.Load(dataPath);
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
