@@ -1,58 +1,30 @@
-# Shift & Competence Planner
+# Shift & Competence Planner — Archived Supporting Implementation
 
-A C#/.NET staffing-planning application for modelling shifts, staffing requirements and competence coverage using fictional workforce data.
+A C#/.NET staffing-planning application that models shifts, staffing requirements and competence coverage using fictional workforce data.
 
-## Start here
+## Portfolio status
 
-| Need | Go to |
-|---|---|
-| Run the application | [Run locally](#run-locally) |
-| Run tests | [Test](#test) |
-| Understand scope | [Data and scope](#data-and-scope) |
-| See the portfolio context | [Developer portfolio](https://abla86.github.io/developer-portfolio/) |
-| Inspect source | [GitHub repository](https://github.com/abla86/shift-competence-planner) |
+**Archived supporting implementation.** This repository overlaps substantially with the active **Workforce & Competence Management** project and is therefore not promoted as a separate flagship project. It remains available as historical implementation evidence.
 
-## Demonstrated functionality
+The active workforce project is the portfolio's primary unit for workforce planning, competence management, staffing coverage, validation, persistence, export, testing and decision-support workflows.
 
-- Employee records with role, position percentage and competencies
-- Day, evening and night shifts
-- Minimum staffing requirements per shift
-- Required competencies per shift
-- Assignment of employees to shifts
-- Detection of staffing gaps
-- Detection of missing required competence
+## Historical demonstrated functionality
+
+- Employee and competence modelling
+- Day/evening/night shifts
+- Staffing and competence requirements
+- Shift assignment and gap detection
 - Planned/worked-hour calculations
 - Local JSON persistence
 - CSV export
 - Automated xUnit tests
 
-## Run locally
+All example data is fictional. This is not a validated workforce-management or clinical decision-support system.
 
-```powershell
-dotnet restore
-dotnet run --project ShiftPlanner
-```
+## Portfolio
 
-## Test
-
-```powershell
-dotnet test
-```
-
-## Data and scope
-
-The repository uses fictional sample data only. It is a demonstration and planning project, not a validated workforce-management or clinical decision-support system.
-
-Do not commit patient information, confidential employee information, credentials or other sensitive data.
-
-## Portfolio evidence
-
-The project demonstrates C#/.NET application development, domain modelling, validation logic, local persistence, CSV export and automated testing.
-
-## Status
-
-This repository is part of the ABLA86 engineering portfolio. Current implementation status is represented by the code and repository history.
+https://abla86.github.io/developer-portfolio/
 
 ## Change-control audit
 
-See [docs/REPOSITORY-CHANGE-AUDIT-2026-08-28.md](docs/REPOSITORY-CHANGE-AUDIT-2026-08-28.md) for the repository change-control and traceability record.
+See the repository history and documentation for implementation provenance.
